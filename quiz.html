@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Josefin+Sans:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="quiz-container">
+        <h3 id="percent">Progress: <span id="span-percent">0%</span></h3>
+        <div class="progress-bar">
+            <div class="bar"></div>
+        </div>
+    <div class="body-container-2">
+        <h1 style="color:#ff5e61" id="question"></h1>
+        <div class="answer-grid">
+            <button class="grid-item" id="q1"></button>
+            <button class="grid-item" id="q2"></button>
+            <button class="grid-item" id="q3"></button>
+            <button class="grid-item" id="q4"></button>
+        </div>
+        <div class="results hidden">
+        </div>
+        <button id="next">Next</button>
+        <a href="index.html" class="hidden" id="restart">Back To Home</a>
+    </div>
+</div>
+<script src="quiz.js"></script>
+</body>
+</html>
